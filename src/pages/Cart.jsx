@@ -36,7 +36,7 @@ function Cart() {
     }
 
     try {
-      const { data } = await axios.post("http://localhost:5000/orders", {
+      const { data } = await axios.post("https://ekart-backend-wxcv.onrender.com/orders", {
         amount: total * 100,
         currency: "INR",
       });
