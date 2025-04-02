@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Header from './components/Header'
+import Header from './Components/Header'
 import Footer from './Components/Footer'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Wishlist from './pages/Wishlist'
